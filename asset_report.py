@@ -23,8 +23,8 @@ print (" ")
 # Decision making logic addition based on risk score
 
 if risk_int >= 8:
-    print("[*] High-Risk Asset – prioritize review.")
+    print("\033[31m" "High-Risk Asset – prioritize review.")
 elif risk_int >= 5:
-    print("[!] Medium-Risk Asset – monitor closely.")
+    print("\033[33m" "Medium-Risk Asset – monitor closely.")
 else:
-    print("[+] Low-Risk Asset – standard monitoring.")
+    print("\033[37m" "Low-Risk Asset – standard monitoring.")
