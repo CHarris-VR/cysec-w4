@@ -46,3 +46,4 @@ import datetime
 
 report_time = datetime.datetime.now()
 print("Report Generated: ", report_time)
+print ("=" * 40)
