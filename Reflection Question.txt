@@ -1,0 +1,8 @@
+Why might SOC analysts need to store or track system criticality 
+and risk scores in automated scripts?
+
+Some SOC analysts need to store or track system criticality
+because it's important for them to quickly identify
+which situations are more important to take care of more so 
+than other accounts. Some situations are considered a higher priority
+to worry about than others.
