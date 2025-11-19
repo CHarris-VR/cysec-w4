@@ -32,10 +32,17 @@ print (" ")
 print ("=" * 40)
 
 if risk_int >= 8:
-    print("\033[31m" "High-Risk Asset – prioritize review.")
+    print("\033[31mHigh-Risk Asset – prioritize review.\033[0m")
 elif risk_int >= 5:
-    print("\033[33m" "Medium-Risk Asset – monitor closely.")
+    print("\033[33mMedium-Risk Asset – monitor closely.\033[0m")
 else:
-    print("\033[37m" "Low-Risk Asset – standard monitoring.")
+    print("\033[37mLow-Risk Asset – standard monitoring.\033[0m")
 
 print ("=" * 40)
+print (" ")
+
+# Import time of report generation 
+import datetime 
+
+report_time = datetime.datetime.now()
+print("Report Generated: ", report_time)
