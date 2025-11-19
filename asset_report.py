@@ -6,7 +6,25 @@ Department = input("Enter your Department: ")
 system_name = input("Enter system hostname: ")
 criticality = input("Enter system criticality (low, medium, high): ")
 risk = input("Enter the Risk Score(1-10): ")
+risk_int = int(risk)
 
 print ("=" * 40)
 print ("Cyber Defense - Asset Report")
 print ("=" * 40)
+print (" ")
+
+print("Analyst: ", analyst_name)
+print("Department: ", Department)
+print("System Name: ", system_name)
+print("Criticality: ", criticality)
+print("Risk Factor: ", risk)
+print (" ")
+
+# Decision making logic addition based on risk score
+
+if risk_int >= 8:
+    print("[*] High-Risk Asset – prioritize review.")
+elif risk_int >= 5:
+    print("[!] Medium-Risk Asset – monitor closely.")
+else:
+    print("[+] Low-Risk Asset – standard monitoring.")
