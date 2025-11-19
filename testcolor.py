@@ -1,6 +1,6 @@
 # Testing syntax for color
 
-print("\033[31m" "Testing"])
+print("\033[31m" "Testing")
 
 # Creating system for asset_report.py 
 
